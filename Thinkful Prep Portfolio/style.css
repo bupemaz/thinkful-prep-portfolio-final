@@ -1,0 +1,125 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-;
+  text-align: center;
+  box-sizing: border-box;
+} /*style the body element for a universal fon, box-size and alignment. Although the normalize file does some of this already, I wanted to add it in as a matter of good practice.*/
+
+/*profile image styling. Centered with rounded edges*/
+
+#headshot {
+  width: 350px;
+  height: 400px;
+  border-radius: 15%;
+  padding: 40px;
+  
+}
+
+#image-section {
+ background-color: #fdfaf6;
+}
+
+
+/*header styling*/
+header {
+  height: 150px;
+  margin: auto;
+  background-color: #faf1e6;;
+
+}
+
+header > h2 {
+  font-size: 25px;
+
+}
+
+header > h1 {
+  font-size: 50px;
+  line-height: 0px;
+  padding-top: 50px;
+  
+}
+
+/*personal info sections such as intro and about me styling*/
+.personal-info-block {
+  padding: 30px 380px;
+  list-style-position: inside;
+  background-color: #e4efe7;
+  text-align: center;
+  
+}
+
+.personal-info-block > h2, ol, ul, a, article {
+  text-transform: capitalize;
+  
+}
+
+/*link styling in the personal info block*/
+.body-link:link {
+  color: grey;
+  font-weight: 600;
+  text-decoration: none;
+  
+}
+
+.body-link:visited {
+  color: black;
+}
+
+.body-link:hover {
+  color: blue; 
+}
+
+.body-link:active {
+  color: #faf1e6;
+}
+
+/*link styling in the contact info block*/
+.contact-link:link {
+  color: grey;
+  font-weight: 600;
+  text-decoration: none;
+  
+}
+
+.contact-link:visited {
+  color: black;
+}
+
+.contact-link:hover {
+  color: blue; 
+}
+
+.contact-link:active {
+  color: #faf1e6;
+}
+
+/*horizontal ruler styling into a sphere with a wrapper to give the apperance of padding*/
+.ruler-wrapper {
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding:12px;
+  
+}
+
+hr {
+   margin: auto;
+  width: 50px;
+  background-color: #064420;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/*footer for attribution*/
+#footer {
+  text-transform: capitalize;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+
+
+
+
+
