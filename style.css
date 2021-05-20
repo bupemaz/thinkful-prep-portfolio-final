@@ -48,7 +48,7 @@ header > h1 {
   
 }
 
-.personal-info-block > h2, ol, ul, a, article {
+.personal-info-block > h2, ol, ul, a {
   text-transform: capitalize;
   
 }
