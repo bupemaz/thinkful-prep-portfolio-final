@@ -55,7 +55,7 @@ header > h1 {
 
 /*link styling in the personal info block*/
 .body-link:link {
-  color: grey;
+  color: #4d4d4d;
   font-weight: 600;
   text-decoration: none;
   
@@ -75,7 +75,7 @@ header > h1 {
 
 /*link styling in the contact info block*/
 .contact-link:link {
-  color: grey;
+  color: #333333;
   font-weight: 600;
   text-decoration: none;
   
